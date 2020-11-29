@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!--样式为了好看自己可以随便改-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:gravity="center"
+        android:text=" "
+        android:id="@+id/putxt"
+        />
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="1sp"
+        android:background="#ffcc44"
+        android:layout_below="@+id/putxt"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
